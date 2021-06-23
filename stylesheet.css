@@ -1,0 +1,280 @@
+body {
+  font-family: "Helvetica";
+  color:#404146;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color:#ffffff;
+  color: #e7e7e7;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header-left {
+  float: left;
+  padding: 5px 40px;
+}
+
+.logo {
+  width: 60px;
+  margin-top: 11px;
+  margin-right: 40px;
+}
+
+.header-right {
+  float: right;
+  padding: 5px 40px;
+}
+
+.header-right li{
+  float: right;
+  }
+
+.logo-facebook {
+  width: 16px;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.logo-whatsapp {
+  width: 16px;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.logo-instagram {
+  width: 16px;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.logo-telegram {
+  width: 16px;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.header-list li {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 22px 10px 21px 40px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color:#DF0124;
+}
+
+.top-wrapper {
+  padding: 70px 0 0px 0;
+  background-color: #ffffff;
+  background-size: cover;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 0 0px;
+  margin: 60 auto;
+  padding-bottom: 30px;
+}
+
+.beranda img {
+  height: 560px;
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.TENTANG {
+  height: 560px;
+  background-color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+}
+
+.TENTANG h1 {
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: Center;
+}
+
+.TENTANG h2 {
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: Center;
+}
+
+.TENTANG p {
+  padding: 20px 150px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.TENTANG span {
+  color: #404146;
+  font-weight: 700;
+}
+
+.TENTANG-Tim {
+  float: left;
+  width: 33.3%;
+}
+
+.TENTANG-Tim img{
+  height: 240px;
+}
+
+.TENTANG-Tim p {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: Center;
+}
+
+.PRODUK {
+  height: 500px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color:#ffffff;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.PRODUK h1 {
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: Center;
+}
+
+.PRODUK h2 {
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: Center;
+}
+
+.PRODUK p {
+  padding: 20px 150px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.PRODUK-Gambar {
+  float: left;
+  width: 50%;
+}
+
+.PRODUK-Gambar img{
+  height: 260px;
+}
+
+.PRODUK-Gambar p {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: Center;
+}
+
+.KONTAK h1 {
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: Center;
+  width: 100%;
+}
+
+.KONTAK h2 {
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: Center;
+}
+
+.contact-title {
+  font-size: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+input, textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #f0f0f0fd;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Avenir Next";
+  color:#7C7D83;
+}
+
+.contact-submit{
+  width: 500px;
+  background-color:#FFCD02;
+  color:#4f4f4f;
+  font-size: 22px;
+}
+
+.KONTAK p{
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #DF0124;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 30px;
+  font-weight:700;
+  letter-spacing: 10px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color:#ffffff;
+}
+
